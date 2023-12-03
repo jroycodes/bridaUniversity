@@ -117,13 +117,15 @@ header .menu-button {
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 36rem) {
+  .hero-div2 {
+    align-items: center;
+  }
+}
 @media screen and (min-width: 36rem) {
   .hero {
     display: flex;
     flex-direction: row-reverse;
-  }
-  .hero .hero-div2 {
-    display: flex;
   }
   h1 {
     max-inline-size: 10ch;
