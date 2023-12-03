@@ -46,6 +46,11 @@ h1 {
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 2.875rem;
+  font-size: clamp(2.5rem, 4vw, 6.25rem);
+}
+
+p{
+  font-size: clamp(1rem, 2vw, 24px);
 }
 
 p.set1 {
@@ -58,4 +63,10 @@ p.set2{
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.5rem;
+}
+
+// IMAGES
+img{
+  object-fit: contain;
+  max-inline-size: 100%;
 }
