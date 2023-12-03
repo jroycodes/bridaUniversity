@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem;
+  background: #060919;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header ol {
+  list-style: none;
+}
+header ol a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header .menu-button {
+  padding: 1rem 2rem;
+  border-radius: 3.75rem;
+  background: radial-gradient(441.87% 148.66% at 31.82% -13.39%, #FF9B00 12.5%, #ED1C24 100%);
+  color: #ffffff;
+  border: none;
+}
+@media screen and (max-width: 36rem) {
+  header nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 36rem) and (max-width: 62rem) {
+  header ol {
+    display: flex;
+    justify-content: center;
+    gap: 3.25rem;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 62rem) {
+  header ol {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,55 @@
+@import "./resets";
+@import "./variables";
+
+body {
+  margin: 1.5rem;
+  background: $black;
+}
+
+header {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    ol{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: $white1;
+        }
+    }
+
+  .menu-button {
+    padding: 1rem 2rem;
+    border-radius: 3.75rem;
+    background: $primary-color;
+    color: $white1;
+    border: none;
+  }
+
+  @media screen and (max-width: 36rem) {
+    nav{
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 36rem) and (max-width: 62rem) {
+    ol {
+        display: flex;
+        justify-content: center;
+        gap: 3.25rem;
+        flex-wrap: wrap;
+      }
+
+  }
+
+  @media screen and (min-width: 62rem) {
+    ol {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+      }
+  }
+}
