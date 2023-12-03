@@ -1,5 +1,9 @@
 // PRIMARY COLORS
-$primary-color: radial-gradient(441.87% 148.66% at 31.82% -13.39%, #FF9B00 12.5%, #ED1C24 100%);
+$primary-color: radial-gradient(
+  441.87% 148.66% at 31.82% -13.39%,
+  #ff9b00 12.5%,
+  #ed1c24 100%
+);
 $brand1: #0000ff;
 $brand2: #ed1c24;
 $brand3: #ff9b00;
@@ -19,4 +23,39 @@ $grey2: rgba(108, 113, 136, 1);
 $grey3: rgba(218, 220, 226, 1);
 
 // FONT
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap");
+
+// BUTTONS
+button {
+  background: $primary-color;
+  border: none;
+  border-radius: 3.75rem;
+  color: $white1;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+// TYPOGRAPHY
+h1, p{
+  font-style: normal;
+
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.875rem;
+}
+
+p.set1 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+p.set2{
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
