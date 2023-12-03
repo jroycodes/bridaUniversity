@@ -1,13 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+button {
+  background: radial-gradient(441.87% 148.66% at 31.82% -13.39%, #ff9b00 12.5%, #ed1c24 100%);
+  border: none;
+  border-radius: 3.75rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+h1, p {
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.875rem;
+  font-size: clamp(2.5rem, 4vw, 6.25rem);
+}
+
+p {
+  font-size: clamp(1rem, 2vw, 24px);
+}
+
+p.set1 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+p.set2 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-inline-size: 100%;
+}
+
 body {
-  margin: 1.5rem;
+  margin: 0.5rem;
   background: #060919;
+  color: #ffffff;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 header {
@@ -15,6 +60,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 1.5rem;
 }
 header ol {
   list-style: none;
@@ -25,10 +71,6 @@ header ol a {
 }
 header .menu-button {
   padding: 1rem 2rem;
-  border-radius: 3.75rem;
-  background: radial-gradient(441.87% 148.66% at 31.82% -13.39%, #FF9B00 12.5%, #ED1C24 100%);
-  color: #ffffff;
-  border: none;
 }
 @media screen and (max-width: 36rem) {
   header nav {
@@ -48,5 +90,48 @@ header .menu-button {
     display: flex;
     justify-content: center;
     gap: 5rem;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+}
+.hero .hero-div2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: left;
+}
+.hero .hero-div2 p.set1 {
+  margin: 1rem 0;
+  opacity: 0.8;
+}
+.hero .getStarted {
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 36rem) {
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero .hero-div2 {
+    display: flex;
+  }
+  h1 {
+    max-inline-size: 10ch;
+    text-align: left;
+    line-height: 4.25rem;
+  }
+  p {
+    max-inline-size: 46ch;
+    text-align: left;
   }
 }/*# sourceMappingURL=styles.css.map */
