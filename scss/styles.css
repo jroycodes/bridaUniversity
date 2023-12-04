@@ -15,7 +15,8 @@ button {
   line-height: 1.5rem;
 }
 
-h1, p {
+h1,
+p {
   font-style: normal;
 }
 
@@ -38,7 +39,7 @@ p.set1 {
 
 p.set2 {
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.5rem;
 }
 
@@ -135,5 +136,41 @@ header .menu-button {
   p {
     max-inline-size: 46ch;
     text-align: left;
+  }
+}
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  padding: 3.5rem 0;
+  background: #f7f5ed;
+  color: #060919;
+}
+.section2 .brands {
+  gap: 0.5rem;
+  padding: 1.5rem;
+}
+.section2 .brands .brandimg {
+  display: flex;
+  justify-content: center;
+}
+.section2 img {
+  margin-bottom: 1rem;
+}
+.section2 .set2 {
+  max-inline-size: 18ch;
+  text-align: center;
+}
+
+@media screen and (min-width: 62rem) {
+  .section2 {
+    gap: 11.125rem;
+  }
+  .brands {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
   }
 }/*# sourceMappingURL=styles.css.map */
