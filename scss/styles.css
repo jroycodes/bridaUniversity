@@ -179,7 +179,9 @@ header .menu-button {
     gap: 0.5rem;
   }
 }
-.section3, .section5 {
+.section3,
+.section5,
+.section6 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,33 +189,61 @@ header .menu-button {
   gap: 2rem;
   padding: 3.5rem 1.5rem;
 }
-.section3 .sect2-d1, .section3 .sect5-div1, .section5 .sect2-d1, .section5 .sect5-div1 {
+.section3 .sect2-d1,
+.section3 .sect5-div1,
+.section3 .sect6-div1,
+.section5 .sect2-d1,
+.section5 .sect5-div1,
+.section5 .sect6-div1,
+.section6 .sect2-d1,
+.section6 .sect5-div1,
+.section6 .sect6-div1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: left;
   gap: 1.5rem;
 }
-.section3 .sect2-d1 .sect2-d2, .section3 .sect5-div1 .sect2-d2, .section5 .sect2-d1 .sect2-d2, .section5 .sect5-div1 .sect2-d2 {
+.section3 .sect2-d1 .sect2-d2,
+.section3 .sect5-div1 .sect2-d2,
+.section3 .sect6-div1 .sect2-d2,
+.section5 .sect2-d1 .sect2-d2,
+.section5 .sect5-div1 .sect2-d2,
+.section5 .sect6-div1 .sect2-d2,
+.section6 .sect2-d1 .sect2-d2,
+.section6 .sect5-div1 .sect2-d2,
+.section6 .sect6-div1 .sect2-d2 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.section3 .sect2-d1 .sect2-d2 .pros, .section3 .sect5-div1 .sect2-d2 .pros, .section5 .sect2-d1 .sect2-d2 .pros, .section5 .sect5-div1 .sect2-d2 .pros {
+.section3 .sect2-d1 .sect2-d2 .pros,
+.section3 .sect5-div1 .sect2-d2 .pros,
+.section3 .sect6-div1 .sect2-d2 .pros,
+.section5 .sect2-d1 .sect2-d2 .pros,
+.section5 .sect5-div1 .sect2-d2 .pros,
+.section5 .sect6-div1 .sect2-d2 .pros,
+.section6 .sect2-d1 .sect2-d2 .pros,
+.section6 .sect5-div1 .sect2-d2 .pros,
+.section6 .sect6-div1 .sect2-d2 .pros {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
 @media screen and (min-width: 36rem) and (max-width: 62rem) {
-  .section3, .section5 {
+  .section3,
+  .section5,
+  .section6 {
     display: flex;
     flex-direction: row;
     gap: 4.063rem;
   }
 }
 @media screen and (min-width: 62rem) {
-  .section3, .section5 {
+  .section3,
+  .section5,
+  .section6 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -256,5 +286,48 @@ header .menu-button {
   p {
     max-inline-size: 46ch;
     text-align: left;
+  }
+}
+#sec6 {
+  background: #060919;
+  color: #ffffff;
+}
+
+.section6 .steps {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1.375rem;
+}
+.section6 .steps .step1,
+.section6 .steps .step2,
+.section6 .steps .step3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.section6 .steps .step1 {
+  justify-content: flex-start;
+}
+.section6 .steps .step2 {
+  justify-content: center;
+}
+.section6 .steps .step3 {
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 36rem) {
+  #Path {
+    -o-object-fit: contain;
+       object-fit: contain;
+    max-inline-size: 50%;
+    position: relative;
+    bottom: 8rem;
+    right: 2rem;
+    transform: rotate(7.283deg);
+  }
+}
+@media screen and (max-width: 36rem) {
+  #Path {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
