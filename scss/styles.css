@@ -179,43 +179,41 @@ header .menu-button {
     gap: 0.5rem;
   }
 }
-.section3 {
+.section3, .section5 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: left;
-  background: #ffffff;
-  color: #060919;
   gap: 2rem;
   padding: 3.5rem 1.5rem;
 }
-.section3 .sect2-d1 {
+.section3 .sect2-d1, .section3 .sect5-div1, .section5 .sect2-d1, .section5 .sect5-div1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: left;
   gap: 1.5rem;
 }
-.section3 .sect2-d1 .sect2-d2 {
+.section3 .sect2-d1 .sect2-d2, .section3 .sect5-div1 .sect2-d2, .section5 .sect2-d1 .sect2-d2, .section5 .sect5-div1 .sect2-d2 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.section3 .sect2-d1 .sect2-d2 .pros {
+.section3 .sect2-d1 .sect2-d2 .pros, .section3 .sect5-div1 .sect2-d2 .pros, .section5 .sect2-d1 .sect2-d2 .pros, .section5 .sect5-div1 .sect2-d2 .pros {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
 @media screen and (min-width: 36rem) and (max-width: 62rem) {
-  .section3 {
+  .section3, .section5 {
     display: flex;
     flex-direction: row;
     gap: 4.063rem;
   }
 }
 @media screen and (min-width: 62rem) {
-  .section3 {
+  .section3, .section5 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -241,7 +239,8 @@ header .menu-button {
   text-align: left;
   gap: 1rem;
 }
-.section4 .sect4-div1 .getStarted2 {
+
+.getStarted2 {
   max-width: -moz-max-content;
   max-width: max-content;
   padding: 1rem 2rem;

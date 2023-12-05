@@ -150,17 +150,15 @@ header {
 }
 
 // SECTION 3
-.section3 {
+.section3, .section5 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: left;
-  background: $white1;
-  color: $black;
   gap: 2rem;
   padding: 3.5rem 1.5rem;
 
-  .sect2-d1 {
+  .sect2-d1, .sect5-div1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -181,7 +179,7 @@ header {
 }
 
 @media screen and (min-width: 36rem) and (max-width: 62rem) {
-  .section3 {
+  .section3, .section5 {
     display: flex;
     flex-direction: row;
     gap: 4.063rem;
@@ -189,7 +187,7 @@ header {
 }
 
 @media screen and (min-width: 62rem) {
-  .section3 {
+  .section3, .section5 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -218,12 +216,12 @@ header {
     text-align: left;
     gap: 1rem;
 
-    .getStarted2 {
-      max-width: max-content;
-      padding: 1rem 2rem;
-      margin-top: 2.5rem;
-    }
   }
+}
+.getStarted2 {
+  max-width: max-content;
+  padding: 1rem 2rem;
+  margin-top: 2.5rem;
 }
 
 @media screen and (min-width: 36rem) {
