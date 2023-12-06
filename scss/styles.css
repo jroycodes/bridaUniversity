@@ -380,4 +380,51 @@ header .menu-button {
   .tips {
     gap: 10.25rem;
   }
+}
+.section8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 2rem;
+  padding: 3.5rem 1.5rem;
+}
+.section8 .awards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section8 .awards .award {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  padding-bottom: 1rem;
+  gap: 3rem;
+  border-bottom: 1px solid rgb(245, 92, 18);
+}
+.section8 .awards .award div {
+  display: flex;
+  align-items: center;
+}
+.section8 .awards .award p {
+  margin-left: 2rem;
+}
+
+@media screen and (min-width: 36rem) {
+  .section8 {
+    display: flex;
+    align-items: center;
+  }
+  .all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6.5rem;
+  }
+}
+@media screen and (max-width: 36rem) {
+  #hide {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
