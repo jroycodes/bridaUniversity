@@ -301,11 +301,11 @@ header {
   padding: 3.5rem 1.5rem;
   gap: 2rem;
 
-  .sect7-d1{
+  .sect7-d1 {
     #sect7-h2 {
       margin-bottom: 1rem;
       max-inline-size: 26ch;
-    }  
+    }
   }
 
   .tips {
@@ -318,31 +318,31 @@ header {
 }
 
 @media screen and (max-width: 36rem) {
-  .tip3{
+  .tip3 {
     display: none;
   }
 }
 
 @media screen and (min-width: 36rem) {
-.section7{
-  justify-content: center;
-  align-items: center;
-  gap: 6.5rem;
-}
+  .section7 {
+    justify-content: center;
+    align-items: center;
+    gap: 6.5rem;
+  }
 
-.sect7-d1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .sect7-d1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-#sect7-h2{
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
+  #sect7-h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
 
-.tips{
-  gap: 10.25rem;
-}
+  .tips {
+    gap: 10.25rem;
+  }
 }
