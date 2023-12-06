@@ -227,7 +227,7 @@ header {
 }
 .getStarted2 {
   max-width: max-content;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   margin-top: 2.5rem;
 }
 
@@ -245,7 +245,7 @@ header {
 }
 
 // SECTION 6
-#sec6{
+#sec6 {
   background: $black;
   color: $white1;
 }
@@ -292,4 +292,57 @@ header {
   #Path {
     display: none;
   }
+}
+
+// SECTION 7
+.section7 {
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem 1.5rem;
+  gap: 2rem;
+
+  .sect7-d1{
+    #sect7-h2 {
+      margin-bottom: 1rem;
+      max-inline-size: 26ch;
+    }  
+  }
+
+  .tips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 36rem) {
+  .tip3{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 36rem) {
+.section7{
+  justify-content: center;
+  align-items: center;
+  gap: 6.5rem;
+}
+
+.sect7-d1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sect7-h2{
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.tips{
+  gap: 10.25rem;
+}
 }
