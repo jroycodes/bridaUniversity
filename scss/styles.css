@@ -58,6 +58,15 @@ img {
   max-inline-size: 100%;
 }
 
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 body {
   background: #ffffff;
   color: #060919;
@@ -71,13 +80,6 @@ header {
   flex-wrap: wrap;
   padding: 1.5rem;
   background: #060919;
-  color: #ffffff;
-}
-header ol {
-  list-style: none;
-}
-header ol a {
-  text-decoration: none;
   color: #ffffff;
 }
 header .menu-button {
