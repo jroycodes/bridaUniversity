@@ -85,6 +85,10 @@ header {
     flex-direction: row-reverse;
   }
 
+    .menu{
+      display: none;
+    }
+
   h1 {
     max-inline-size: 10ch;
     text-align: left;
