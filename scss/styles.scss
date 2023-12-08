@@ -1,5 +1,6 @@
 @import "./resets";
 @import "./variables";
+@import "./sidebars";
 
 body {
   background: $white1;
@@ -85,9 +86,9 @@ header {
     flex-direction: row-reverse;
   }
 
-    .menu{
-      display: none;
-    }
+  .menu {
+    display: none;
+  }
 
   h1 {
     max-inline-size: 10ch;
