@@ -1,0 +1,91 @@
+// SIDE BAR
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 3.75rem;
+  z-index: 1;
+  background-color: $black;
+}
+
+.baritem {
+  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.5rem;
+
+  a {
+    text-decoration: none;
+    color: $white2;
+  }
+}
+
+a:hover {
+  color: $brand2;
+}
+
+.sidebar div {
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  left: 1.56rem;
+  font-size: 36px;
+  float: left;
+}
+
+.closebtn {
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: $brand1;
+}
+
+.openbtn:hover {
+  color: $black;
+}
+
+.baritem:active {
+  background-color: $white1;
+}
+
+.openbtn {
+  display: block;
+  font-size: 1.7rem;
+  cursor: pointer;
+  float: right;
+  background-color: $black;
+  border: none;
+}
+
+.openbtn.hide {
+  display: none;
+}
+
+#main {
+  transition: margin-right 0.5s;
+  position: relative;
+  z-index: 1;
+}
+
+.hide{
+  display: none;
+}
+
+.menu{
+  position: relative;
+}
