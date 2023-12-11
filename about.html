@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/styles.css" />
+    <link rel="stylesheet" href="scss/about.css">
+    <title>Brida University</title>
+  </head>
+  <header>
+    <picture>
+      <source
+        class="Large"
+        srcset="Assets\Desktop\Logo.svg"
+        media="(min-width: 62rem)"
+      />
+      <img src="Assets/Mobile/Logo.svg" alt="Brida Logo" />
+    </picture>
+
+    <nav>
+      <ol>
+        <li>
+          <a href="programs.html">Our Programs</a>
+        </li>
+        <li>
+          <a href="awards.html">Awards</a>
+        </li>
+        <li>
+          <a href="about.html">About Us</a>
+        </li>
+        <li>
+          <a href="contactUs.html">Contact Us</a>
+        </li>
+      </ol>
+    </nav>
+    <!-- SIDE BAR -->
+    <div class="menu">
+      <div id="main">
+        <button class="menu-button" id="button" onclick="openNav()">
+          Menu
+        </button>
+      </div>
+
+      <div id="mySidebar" class="sidebar">
+        <div class="closebtn" onclick="closeNav()">&#128473;</div>
+        <div class="baritem">
+          <a href="programs.html">Our Programs</a>
+          <a href="awards.html">Awards</a>
+          <a href="about.html">About Us</a>
+          <a href="contactUs.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <body></body>
+  <script src="script.js"></script>
+</html>
