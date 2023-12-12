@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/styles.css" />
-    <link rel="stylesheet" href="scss/about.css">
+    <link rel="stylesheet" href="scss/about.css" />
     <title>Brida University</title>
   </head>
   <header>
@@ -53,6 +53,47 @@
     </div>
   </header>
 
-  <body></body>
+  <body>
+    <section>
+      <div class="hero">
+        <div class="hero-img">
+          <picture>
+            <source
+              class="Desktop"
+              srcset="Assets\Desktop\heroImg.jpg"
+              media="(min-width: 62rem)"
+            />
+            <source
+              class="Tablet"
+              srcset="Assets\Tablet\Img.jpg"
+              media="(min-width: 36rem)"
+            />
+            <img src="Assets/Mobile/Img Hero.jpg" alt="Student with a laptop" />
+          </picture>
+        </div>
+        <div class="hero-div2">
+          <h1>Gen-z as modern world pillars</h1>
+          <p class="set1">
+            Cybersecurity is the practice of protecting systems and programs
+            from digital attacks. These cyberattacks.
+          </p>
+          <button class="getStarted">Get Started</button>
+        </div>
+      </div>
+      <picture>
+        <source
+          class="barner"
+          srcset="Assets\Desktop\Banner.jpg"
+          media="(min-width: 62rem)"
+        />
+        <source
+          class="Tablet"
+          srcset="Assets\Tablet\Banners.jpg"
+          media="(min-width: 23.438rem)"
+        />
+        <img src="Assets/Mobile/Banners.jpg" alt="Banners" />
+      </picture>
+    </section>
+  </body>
   <script src="script.js"></script>
 </html>
