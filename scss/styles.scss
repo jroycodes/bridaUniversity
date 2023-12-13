@@ -95,21 +95,25 @@ header {
   .hero {
     display: flex;
     flex-direction: row-reverse;
+
+    h1 {
+      max-inline-size: 10ch;
+      text-align: left;
+      line-height: 4rem;
+    }
+  
+    p {
+      max-inline-size: 46ch;
+      text-align: left;
+    }
+  }
+
+  h1{
+    line-height: 6.25rem;
   }
 
   .menu {
     display: none;
-  }
-
-  h1 {
-    max-inline-size: 10ch;
-    text-align: left;
-    line-height: 4rem;
-  }
-
-  p {
-    max-inline-size: 46ch;
-    text-align: left;
   }
 }
 

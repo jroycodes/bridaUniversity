@@ -30,7 +30,7 @@ h2 {
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 2.875rem;
-  font-size: clamp(2.5rem, 4vw, 6.25rem);
+  font-size: clamp(2.5rem, 5vw, 6.25rem);
 }
 
 p {
@@ -248,17 +248,20 @@ header .menu-button {
     display: flex;
     flex-direction: row-reverse;
   }
-  .menu {
-    display: none;
-  }
-  h1 {
+  .hero h1 {
     max-inline-size: 10ch;
     text-align: left;
     line-height: 4rem;
   }
-  p {
+  .hero p {
     max-inline-size: 46ch;
     text-align: left;
+  }
+  h1 {
+    line-height: 6.25rem;
+  }
+  .menu {
+    display: none;
   }
 }
 .section2 {
