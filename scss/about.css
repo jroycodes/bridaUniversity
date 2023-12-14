@@ -33,6 +33,13 @@ h2 {
   font-size: clamp(2.5rem, 5vw, 6.25rem);
 }
 
+h3 {
+  font-size: 1.313rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
 p {
   font-size: clamp(1rem, 2vw, 24px);
 }
@@ -226,4 +233,24 @@ body {
     line-height: 39.063rem;
     letter-spacing: -0.391rem;
   }
+}
+#second {
+  background-color: white;
+  color: black;
+  padding-top: 58.5rem;
+}
+
+.about-sect2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2.625rem;
+  padding: 3.5rem 1.5rem;
+  position: relative;
+}
+.about-sect2 .two {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }/*# sourceMappingURL=about.css.map */
