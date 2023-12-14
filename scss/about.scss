@@ -9,9 +9,9 @@ body {
 }
 
 #section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
   .about-sect1 {
     display: flex;
@@ -56,20 +56,42 @@ body {
   }
 }
 
-  @media screen and (min-width: 62rem) {
-    .about-sect1 {
-      padding-top: 3.5rem;
+@media screen and (min-width: 62rem) {
+  .about-sect1 {
+    padding-top: 3.5rem;
 
-      h1 {
-        max-inline-size: 16ch;
-        line-height: 4.25rem;
-      }
+    h1 {
+      max-inline-size: 16ch;
+      line-height: 4.25rem;
     }
-    .quotation p {
-        font-size: 39.063rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 39.063rem;
-        letter-spacing: -0.391rem;
-      }
   }
+  .quotation p {
+    font-size: 39.063rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.063rem;
+    letter-spacing: -0.391rem;
+  }
+}
+
+// SECTION 2
+#second {
+  background-color: white;
+  color: black;
+  padding-top: 58.5rem;
+}
+.about-sect2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2.625rem;
+  padding: 3.5rem 1.5rem;
+  position: relative;
+
+  .two{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
