@@ -47,15 +47,17 @@ p {
   font-style: normal;
 }
 
-h1,
-h2 {
-  font-size: 2.25rem;
+h1 {
   font-weight: 700;
-  line-height: 2.875rem;
   font-size: clamp(2.5rem, 5vw, 6.25rem);
 }
 
-h3{
+h2 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+}
+
+h3 {
   font-size: 1.313rem;
   font-style: normal;
   font-weight: 600;
@@ -79,7 +81,7 @@ p.set2 {
   line-height: 1.5rem;
 }
 
-h2.class1{
+h2.class1 {
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
@@ -91,11 +93,11 @@ img {
   max-inline-size: 100%;
 }
 
-ol{
+ol {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: $white1;
 }
