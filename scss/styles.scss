@@ -8,6 +8,13 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
+.logoz{
+  transition: transform 0.5s ease-in;
+}
+.logoz:hover {
+  transform: scale(1.1);
+}
+
 .section2,
 .section3,
 .section4,
@@ -101,14 +108,14 @@ header {
       text-align: left;
       line-height: 4rem;
     }
-  
+
     p {
       max-inline-size: 46ch;
       text-align: left;
     }
   }
 
-  h1{
+  h1 {
     line-height: 6.25rem;
   }
 

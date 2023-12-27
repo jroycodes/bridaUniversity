@@ -177,6 +177,14 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
+.logoz {
+  transition: transform 0.5s ease-in;
+}
+
+.logoz:hover {
+  transform: scale(1.1);
+}
+
 .section2,
 .section3,
 .section4,
