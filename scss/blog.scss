@@ -40,3 +40,29 @@ body {
     }
   }
 }
+
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: $white1;
+  color: $black;
+  padding: 3.5rem 1.5rem;
+
+  img{
+    margin-bottom: 1.5rem;
+  }
+
+  h2{
+    margin-bottom: 1rem;
+    max-inline-size: 15ch;
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  .blogs{
+    gap: 6.25rem;
+  }
+}

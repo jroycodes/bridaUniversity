@@ -204,4 +204,28 @@ body {
 }
 .sect_1 .sect2 h2 {
   margin-bottom: 0.5rem;
+}
+
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  color: #060919;
+  padding: 3.5rem 1.5rem;
+}
+.blogs img {
+  margin-bottom: 1.5rem;
+}
+.blogs h2 {
+  margin-bottom: 1rem;
+  max-inline-size: 15ch;
+}
+
+@media screen and (min-width: 62rem) {
+  .blogs {
+    gap: 6.25rem;
+  }
 }/*# sourceMappingURL=blog.css.map */
