@@ -1,0 +1,42 @@
+@import "./resets";
+@import "./variables";
+@import "./sidebars";
+
+body {
+  background-color: $black;
+  color: $white1;
+}
+
+.sect_1 {
+  padding: 3.5rem 1.5rem;
+  .sect1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.684rem;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    background: $black;
+    color: $white1;
+
+    .blog2 h2 {
+      margin-bottom: 1rem;
+    }
+
+    .blog2 p {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .sect2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
