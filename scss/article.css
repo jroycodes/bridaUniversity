@@ -203,6 +203,11 @@ body {
   align-items: center;
   padding: 3.5rem 1.5rem;
 }
+.top .mid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 .top .mid h2 {
   max-inline-size: 22ch;
 }
@@ -212,8 +217,20 @@ body {
   gap: 2rem;
 }
 
-.article {
+.mize {
+  background-color: blueviolet;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.article_body {
+  padding: 3.5rem 1.5rem;
+  background-color: orangered;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.article_body article {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }/*# sourceMappingURL=article.css.map */
